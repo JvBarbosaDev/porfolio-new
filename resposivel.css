@@ -1,0 +1,129 @@
+@media (max-width: 412px){
+    header {
+        display: block;
+    }
+    header ul li a {
+        position: relative;
+        font-size: 0.8em;
+    }
+    header .logo {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-size: 1.2em;
+    }
+    #projects {
+        width: 100%;
+        height: 75vh;
+    }
+    .container h1 {
+        font-size: 2em;
+    }
+    .painel-project {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .painel-project h1 {
+        font-size:2.5em;
+        top: 20px;
+    }
+    .column-project {
+        position: relative;
+        background: #A8C6E2;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding: 1em;
+        display: flex;
+        width: 250px;
+        height: 150px;
+        top: 25px;
+    }
+    .column-project span {
+        background: #fff;
+        justify-content: center;
+        border-radius: 10px;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        width: 100%;
+        height: 25px;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 420px){
+    header {
+        display: block;
+    }
+    header .logo {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+    #projects {
+        width: 100%;
+        height: 75vh;
+    }
+    .container h1 {
+        font-size: 2em;
+    }
+    .painel-project {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .painel-project h1 {
+        font-size:2.5em;
+        top: 20px;
+    }
+    .column-project {
+        position: relative;
+        background: #A8C6E2;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding: 1em;
+        display: flex;
+        width: 250px;
+        height: 150px;
+        top: 25px;
+    }
+    .column-project span {
+        background: #fff;
+        justify-content: center;
+        border-radius: 10px;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        width: 100%;
+        height: 25px;
+        display: flex;
+    }
+}
+
+@media (min-width: 500px){
+
+
+    header {
+        display: block;
+    }
+    header .logo {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+    header ul li a{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
