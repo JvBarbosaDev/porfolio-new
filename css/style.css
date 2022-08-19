@@ -103,6 +103,21 @@ footer {
     width: 100%;
     height: 100vh;
 }
+.text-about a {
+    padding: 5px;
+}
+
+.a-linkedin {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #0077B7;
+}
+
+.a-github {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #161B22;
+}
 
 .painel-project {
     justify-content: center;
@@ -119,6 +134,22 @@ footer {
     width: 100%;
     top: 0;
 }
+
+.rep-github {
+    position: absolute;
+    display: flex;
+    bottom: 125px;
+}
+
+.rep-github a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.rep-github a:hover {
+    color: #A8C6E2;
+}
+
 .column-project {
     position: relative;
     background: #A8C6E2;
